@@ -1,0 +1,24 @@
+-------------
+Steps to use:
+-------------
+You have the following files:
+    1. or_gate.vhdl
+    2. testbench.vhdl
+
+*-------------------------
+ghdl -a or_gate.vhdl
+# Compile main code
+ghdl -a testbench.vhdl
+# Compile testbench
+
+ghdl -e testbench
+# Elaborate test bench
+ghdl -r testbench
+# Simulate test bench
+
+ghdl -r testbench --vcd=tb.vcd
+# Simulate and generate vcd file
+
+gtkwave tb.vcd
+# Open generated VCD file
+*-------------------------

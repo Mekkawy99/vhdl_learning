@@ -1,0 +1,10 @@
+v 4
+file . "adder.vhd" "5c43653d748e3399c18e1b3b9e957522b9999bdb" "20241029081336.349":
+  entity adder at 3( 10) + 0 on 15;
+  architecture behav1 of adder at 16( 311) + 0 on 16;
+file . "or_gate.vhdl" "46e371329f3877c2716c2a56d477551547944c9a" "20241028213915.711":
+  entity or_gate at 2( 25) + 0 on 11;
+  architecture rtl of or_gate at 12( 166) + 0 on 12;
+file . "testbench.vhdl" "99523916dcabd2063735380cc42fe7b1396c6acb" "20241028213919.567":
+  entity testbench at 2( 25) + 0 on 13;
+  architecture tb of testbench at 9( 116) + 0 on 14;
