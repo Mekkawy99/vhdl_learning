@@ -1,0 +1,7 @@
+v 4
+file . "testbench.vhd" "fbecc3a16068a1a39292367f636875ccd0a78cf8" "20241105212724.926":
+  entity testbench at 5( 16) + 0 on 21;
+  architecture testbench of testbench at 15( 108) + 0 on 22;
+file . "not_gate.vhd" "c5e726adb01770dd9fd9dc6deeefb9f68eabd9e9" "20241105212055.095":
+  entity not_gate at 3( 13) + 0 on 19;
+  architecture behav of not_gate at 14( 160) + 0 on 20;
