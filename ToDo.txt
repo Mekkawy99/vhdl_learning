@@ -1,7 +1,7 @@
 
 List of example to do (Reference from another github respo):
 
-    AND/OR/NOT/XOR Gates
+    AND/OR/NOT/XOR Gates   ---> Done
     Adder
     Adder/Subtractor
     Counter
