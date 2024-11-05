@@ -1,0 +1,7 @@
+v 4
+file . "testbench.vhd" "87e87e606a76177b31f516fdfd1608c6104ba46f" "20241105214222.356":
+  entity testbench at 4( 15) + 0 on 13;
+  architecture testbench of testbench at 12( 105) + 0 on 14;
+file . "xor_gate.vhd" "a0fe0bad8fa76b8ec03f8432904bf50d43a5880c" "20241105213835.464":
+  entity xor_gate at 7( 17) + 0 on 11;
+  architecture behav of xor_gate at 20( 152) + 0 on 12;
