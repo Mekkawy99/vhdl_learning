@@ -23,3 +23,11 @@ begin
 
     c <= a and b;
 end behav;
+
+-- Configuration added: It is empty, it is just to be familiar with the main components in any vhdl code
+
+configuration and_config of and_gate is
+    FOR behav 
+    end FOR;
+
+end and_config;
