@@ -1,0 +1,31 @@
+
+-- Entity is the interface description of the module.
+-- How does this modules communicate with the env?
+-- Components:
+	- Input and output singals.
+		- port (a,b: in bit, c: out bit);
+	- Parameters: Using "GENERICS" statement. EX: GENERIC pr: time := 2 ns); 
+	- Global definitions for all architectures.
+
+* =============================== *
+-- Architecture: What does the module do? 
+-- Could be: Behavioral or structural description.
+-- Ex:
+architecture behav1 of entity1 is
+begin
+-- Descript the behavior here.
+end behav1;
+
+* =============================== *
+-- Configuration: Which architecture version and which subcomnponents are used?
+
+
+
+
+* =============================== *
+Structural:
+	1. Instantiate sub-components.
+	2. Interconnections of sub-components.
+Behavioral:
+	1. Concurrent/parallel statements.
+	2. Sequential statements.
