@@ -1,0 +1,4 @@
+v 4
+file . "comp.vhdl" "45239d52ebe16adb008c5f6e177780ef9d2f0701" "20241110120919.303":
+  entity comp at 5( 89) + 0 on 11;
+  architecture arch1 of comp at 15( 206) + 0 on 12;

@@ -2,12 +2,12 @@
 -- Concept: IF and PROCESS statements
 -- Engineer: Mohamed Elmekawy
 
-library IEEE;
-using ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
 
 entity comp is
-port (a,b: in std_logic,
+port (a,b: in std_logic;
 	c: out std_logic);
 
 end comp;
