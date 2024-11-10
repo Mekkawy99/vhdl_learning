@@ -1,0 +1,12 @@
+v 4
+file . "exor.vhdl" "0b888a9ddf42ffb62f45b55ed183b25d2bd939f9" "20241110140553.206":
+  entity exor at 1( 0) + 0 on 17;
+  architecture behavioral of exor at 11( 134) + 0 on 18;
+file . "and2.vhd" "5526b3a35e199ec84e9676906cedaabfa68130ab" "20241110140550.010":
+  entity and2 at 3( 2) + 0 on 14;
+  architecture behav of and2 at 15( 131) + 0 on 15;
+  configuration and2_config at 21( 207) + 0 on 16;
+file . "ha.vhd" "2efefc796d1bc995a24fdece4c92531103cda030" "20241110140747.080":
+  entity half_add at 6( 260) + 0 on 22;
+  architecture ha_arch of half_add at 16( 410) + 0 on 23;
+  configuration ha_config_1 at 39( 911) + 0 on 24;
