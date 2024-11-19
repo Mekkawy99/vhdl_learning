@@ -26,9 +26,9 @@ architecture behav of mux21_stim is
             t3'("101") after 50 ns,
             t3'("110") after 60 ns,
             t3'("111") after 70 ns;
-            wait for 1 ns;
+            wait for 1 ns; -- abosolute 1 ns
             assert (res='0') report "Result is not 0" severity error;
-            wait for 10 ns;
+            wait for 10 ns; -- absolute 11 ns
             assert (res='1') report "Result is not 1" severity error;
         end process;
     end behav;
